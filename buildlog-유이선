@@ -1,0 +1,1 @@
+Get-ChildItem -Force 'C:\Users\User\Documents\Codex\2026-08-16\ans\outputs' | Select-Object Name,Length
