@@ -164,3 +164,15 @@ h1,h2,h3,.primary,.secondary,.signup-button,.hero-action b,.urgent-call b { font
 .mic-button:focus-visible { outline:4px solid #92b59e; outline-offset:3px; }
 
 @media(max-width:800px){.ai-profile-large{width:116px;height:116px}.ai-profile-call{width:78px;height:78px;margin-bottom:12px}.chat-avatar{width:34px;height:34px;flex-basis:34px}.message-row .bubble{max-width:calc(90% - 43px)}}
+
+/* Post-merge icon fixes: use a navigation-specific class to avoid the
+   .mypage page-layout styles leaking into the profile icon. */
+.bottom-nav .nav-icon.nav-mypage { position:relative; width:24px; height:24px; flex:0 0 24px; padding:0; color:currentColor; }
+.bottom-nav .nav-icon.nav-mypage img { display:none; }
+.bottom-nav .nav-icon.nav-mypage i { position:absolute; display:block; box-sizing:border-box; }
+.bottom-nav .nav-icon.nav-mypage i:first-of-type { width:9px; height:9px; left:7.5px; top:1px; border:2px solid currentColor; border-radius:50%; }
+.bottom-nav .nav-icon.nav-mypage i:nth-of-type(2) { width:19px; height:11px; left:2.5px; bottom:1px; border:2px solid currentColor; border-bottom:0; border-radius:13px 13px 0 0; }
+.bottom-nav .nav-icon.nav-mypage i:nth-of-type(3) { display:none; }
+.camera-icon img { opacity:1; filter:brightness(0) invert(1)!important; }
+.quick>button.insurance-link { gap:0; }
+.quick>button.insurance-link>div { flex:1; }
