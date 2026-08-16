@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "농가온 | 농가 피해 회복 도우미",
-  description: "농가 피해 현장 기록과 복구지원 준비를 쉽고 빠르게 도와드립니다.",
+  title: "농가온 | 축산농가 피해 회복 도우미",
+  description: "축산농가의 가축·축사 피해 기록과 복구지원 및 문서 준비를 도와드립니다.",
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",
